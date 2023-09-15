@@ -2,7 +2,7 @@
   "name": "qbank3api-typescript",
   "version": "0.1.0",
   "description": "A TypeScript-Wrapper for QBank 3's API. Provides a simple way to communicate with QBank 3 from TypeScript",
-  "main": "qbank_api.ts",
+  "main": "src/qbank_api.ts",
   "scripts": {
     "test": "test"
   },

@@ -1,5 +1,5 @@
 import {AbstractController} from './abstract_controller';
-import {MediaResponse} from '../model/mediaResponse';
+import {MediaResponse} from '../model';
 
 export class MediaController extends AbstractController {
   getName(): string {
