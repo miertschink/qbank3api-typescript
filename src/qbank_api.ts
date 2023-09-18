@@ -1,7 +1,6 @@
-import axios from 'axios';
-import {AxiosInstance} from 'axios';
 import {Controller} from './controller/types';
 import {MediaController} from './controller/media_controller';
+import axios, {AxiosInstance} from 'axios';
 
 interface Credentials {
   username: string;

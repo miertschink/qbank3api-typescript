@@ -1,8 +1,9 @@
 {
   "name": "qbank3api-typescript",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "description": "A TypeScript-Wrapper for QBank 3's API. Provides a simple way to communicate with QBank 3 from TypeScript",
   "main": "src/qbank_api.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "test"
   },
@@ -16,6 +17,7 @@
   ],
   "author": "Stefan",
   "license": "Apache-2.0",
+  "prepublish": "tsc",
   "bugs": {
     "url": "https://github.com/miertschink/qbank3api-typescript/issues"
   },
@@ -24,7 +26,9 @@
     "axios": "^1.5.0"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.5",
     "gts": "^5.0.1",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1"
   }
 }

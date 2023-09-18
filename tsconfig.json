@@ -2,17 +2,18 @@
   "extends": "./node_modules/gts/tsconfig-google.json",
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "build",
+    "outDir": "dist",
     "baseUrl": ".",
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "declaration": true
   },
   "include": [
     "src/**/*.ts",
-    "test/**/*.ts",
+    "tests/**/*.ts",
   ],
   "exclude": [
     "node_modules",
-    "build"
+    "dist"
   ]
 }
